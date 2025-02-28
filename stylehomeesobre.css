@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(29, 29, 29);
+}
+.divhome{
+   height: 60px;
+   align-items: center;
+   border-radius: 20px;
+   background-color: rgb(131, 131, 131);
+   display: flex;
+}
+.h2{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+   margin-left: 25px;
+   font-size: 30px;
+   color: white;
+}
+.imglogo{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 45px;
+    height: 50px;
+}
+.casa{
+    margin: auto;
+    box-shadow: 0px 4px 8px rgb(131, 131, 131);
+    height: 700px;
+    width: 900px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(224, 224, 224);
+    transition: 0.4s;
+}
+.casa:hover{
+    transition: 0.4s;
+   padding: 25px;
+}
+div{
+    margin-top: 25px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.texto{
+    padding: 35px;
+    text-align: start;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navegacao{
+    margin-left: 100px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navegacao{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+   margin-left: 25px;
+   font-size: 20px;
+   color: white;
+}
+.navegacao:hover{
+    padding: 5px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+   margin-left: 25px;
+   font-size: 20px;
+   background-color: rgb(70, 70, 70);
+   color: white; 
+}
+.input{
+    border: white solid 2px;
+    border-radius: 15px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    transition: 0.4s;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(29, 29, 29);
+}
+.button:hover{
+    transition: 0.4s;
+    padding: 3px;
+    width: 60px;
+}
